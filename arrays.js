@@ -13,6 +13,7 @@ console.log( "saludo.length:", saludo.length );
 console.log( "lenguajes.length:", lenguajes.length );
 
 // Recorrer un array ( index y arreglo son opcionales )
-lenguajes.forEach( function( elemento, index, arreglo ) {
+lenguajes.forEach( function( elemento, index, arreglo ) 
+{
    console.log( elemento, index, arreglo );
 });
